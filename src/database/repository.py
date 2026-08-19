@@ -262,3 +262,79 @@ class FrameRepository:
         connection.close()
 
         return [dict(row) for row in rows]
+    
+def get_all_observations(self):
+    """
+    Return all indexed frame observations.
+    """
+
+    cursor = self.database.connection.cursor()
+
+    cursor.execute("""
+        SELECT
+            frame_id,
+            timestamp,
+            location,
+            description,
+            analysis
+        FROM observations
+        ORDER BY frame_id
+    """)
+
+    rows = cursor.fetchall()
+
+    return rows
+
+
+def search_by_object(self, object_type):
+    """
+    Search indexed frames by object type.
+    """
+
+    cursor = self.database.connection.cursor()
+
+    cursor.execute("""
+        SELECT
+            frame_id,
+            timestamp,
+            location,
+            description,
+            analysis
+        FROM observations
+        WHERE analysis LIKE ?
+        ORDER BY frame_id
+    """, (
+        f'%"type": "{object_type}"%',
+    ))
+
+    return cursor.fetchall()
+
+
+def search_by_time(
+    self,
+    start_timestamp,
+    end_timestamp
+):
+    """
+    Search indexed frames between two timestamps.
+    """
+
+    cursor = self.database.connection.cursor()
+
+    cursor.execute("""
+        SELECT
+            frame_id,
+            timestamp,
+            location,
+            description,
+            analysis
+        FROM observations
+        WHERE timestamp >= ?
+          AND timestamp <= ?
+        ORDER BY timestamp
+    """, (
+        start_timestamp,
+        end_timestamp
+    ))
+
+    return cursor.fetchall()
