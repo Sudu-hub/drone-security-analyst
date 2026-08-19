@@ -1,0 +1,37 @@
+[
+  {
+    "frame_id": 1,
+    "timestamp": "00:00",
+    "description": "A blue Ford F150 is entering through the main gate."
+  },
+  {
+    "frame_id": 2,
+    "timestamp": "00:01",
+    "description": "A person is standing near the main gate."
+  },
+  {
+    "frame_id": 3,
+    "timestamp": "00:03",
+    "description": "The same person is still standing near the main gate."
+  },
+  {
+    "frame_id": 4,
+    "timestamp": "00:05",
+    "description": "The person remains near the main gate."
+  },
+  {
+    "frame_id": 5,
+    "timestamp": "00:07",
+    "description": "The person is leaving the main gate area."
+  },
+  {
+    "frame_id": 6,
+    "timestamp": "00:08",
+    "description": "The blue Ford F150 is leaving the property."
+  },
+  {
+    "frame_id": 7,
+    "timestamp": "00:12",
+    "description": "The blue Ford F150 is entering through the main gate again."
+  }
+]

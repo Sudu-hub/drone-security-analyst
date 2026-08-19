@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "00:00",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:01",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:03",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:05",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:07",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:08",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  },
+  {
+    "timestamp": "00:12",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "altitude": 35,
+    "location": "main_gate",
+    "drone_status": "monitoring"
+  }
+]
