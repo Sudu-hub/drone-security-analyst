@@ -16,7 +16,58 @@ class TelemetrySimulator:
             return json.load(file)
 
     def get_telemetry(self):
-        return self.telemetry
+
+        return [
+            {
+                "timestamp": "00:00",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:01",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:03",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:06",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:08",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:09",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            },
+            {
+                "timestamp": "00:12",
+                "location": "main_gate",
+                "latitude": 18.5204,
+                "longitude": 73.8567,
+                "altitude": 25.0
+            }
+        ]
 
     def stream_telemetry(self):
         """

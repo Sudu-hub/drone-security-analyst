@@ -16,17 +16,17 @@
   },
   {
     "frame_id": 4,
-    "timestamp": "00:05",
-    "description": "The person remains near the main gate."
+    "timestamp": "00:06",
+    "description": "The person remains standing near the main gate."
   },
   {
     "frame_id": 5,
-    "timestamp": "00:07",
+    "timestamp": "00:08",
     "description": "The person is leaving the main gate area."
   },
   {
     "frame_id": 6,
-    "timestamp": "00:08",
+    "timestamp": "00:09",
     "description": "The blue Ford F150 is leaving the property."
   },
   {
